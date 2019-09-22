@@ -30,7 +30,6 @@
 		E7D968582335CA250028FCCA /* getCoin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D9684C2335CA250028FCCA /* getCoin.mp3 */; };
 		E7D968592335CA250028FCCA /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D9684D2335CA250028FCCA /* GameOver.mp3 */; };
 		E7D9685A2335CA250028FCCA /* EnterTunnel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D9684E2335CA250028FCCA /* EnterTunnel.mp3 */; };
-		E7D9685B2335CA250028FCCA /* Stomp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D9684F2335CA250028FCCA /* Stomp.mp3 */; };
 		E7D9685C2335CA250028FCCA /* StageClear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D968502335CA250028FCCA /* StageClear.mp3 */; };
 		E7D9685D2335CA250028FCCA /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7D968512335CA250028FCCA /* jump.mp3 */; };
 		E7D9685F2335CD6D0028FCCA /* MarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9685E2335CD6C0028FCCA /* MarioViewController.swift */; };
@@ -62,7 +61,6 @@
 		E7D9684C2335CA250028FCCA /* getCoin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = getCoin.mp3; sourceTree = "<group>"; };
 		E7D9684D2335CA250028FCCA /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
 		E7D9684E2335CA250028FCCA /* EnterTunnel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EnterTunnel.mp3; sourceTree = "<group>"; };
-		E7D9684F2335CA250028FCCA /* Stomp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stomp.mp3; sourceTree = "<group>"; };
 		E7D968502335CA250028FCCA /* StageClear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StageClear.mp3; sourceTree = "<group>"; };
 		E7D968512335CA250028FCCA /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
 		E7D9685E2335CD6C0028FCCA /* MarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 				E7D9684C2335CA250028FCCA /* getCoin.mp3 */,
 				E7D9684D2335CA250028FCCA /* GameOver.mp3 */,
 				E7D9684E2335CA250028FCCA /* EnterTunnel.mp3 */,
-				E7D9684F2335CA250028FCCA /* Stomp.mp3 */,
 				E7D968502335CA250028FCCA /* StageClear.mp3 */,
 				E7D968512335CA250028FCCA /* jump.mp3 */,
 			);
@@ -227,7 +224,6 @@
 				E7D968592335CA250028FCCA /* GameOver.mp3 in Resources */,
 				E7D968572335CA250028FCCA /* BGMusic.mp3 in Resources */,
 				E7D968262335A0640028FCCA /* Main.storyboard in Resources */,
-				E7D9685B2335CA250028FCCA /* Stomp.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

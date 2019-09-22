@@ -195,45 +195,69 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8M-wx-mXX">
                                 <rect key="frame" x="33" y="61" width="331" height="505"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52C-4J-txM" userLabel="Mushroom">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52C-4J-txM" userLabel="Mushroom">
                                         <rect key="frame" x="118" y="157" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Mushroom"/>
+                                        <connections>
+                                            <action selector="SoundEffects:" destination="xXf-yM-sS7" eventType="touchUpInside" id="FPv-b0-qA1"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrR-Oz-7Cl" userLabel="SpecialBrick">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrR-Oz-7Cl" userLabel="SpecialBrick">
                                         <rect key="frame" x="87" y="157" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="specialBrick"/>
+                                        <connections>
+                                            <action selector="SoundEffects:" destination="xXf-yM-sS7" eventType="touchUpInside" id="FLf-vw-tkB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzq-5r-csP" userLabel="Brick2">
                                         <rect key="frame" x="87" y="127" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="brick"/>
+                                        <connections>
+                                            <action selector="SoundEffects:" destination="xXf-yM-sS7" eventType="touchUpInside" id="gBV-6Q-GUN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfu-eC-g1q" userLabel="Brick1">
                                         <rect key="frame" x="87" y="97" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="brick"/>
+                                        <connections>
+                                            <action selector="SoundEffects:" destination="xXf-yM-sS7" eventType="touchUpInside" id="vGo-bo-cP7"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ssy-6k-in3" userLabel="Pipe">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ssy-6k-in3" userLabel="Pipe">
                                         <rect key="frame" x="20" y="248" width="45" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Mario_pipe"/>
+                                        <connections>
+                                            <action selector="SoundEffects:" destination="xXf-yM-sS7" eventType="touchUpInside" id="ZNW-64-FDk"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2i-kA-bhD" userLabel="Coin1">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2i-kA-bhD" userLabel="Coin1">
                                         <rect key="frame" x="92" y="61" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="coins"/>
+                                        <connections>
+                                            <action selector="SoundEffects:" destination="xXf-yM-sS7" eventType="touchUpInside" id="do5-Yn-NlX"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkE-Ip-I3K" userLabel="Bomb">
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkE-Ip-I3K" userLabel="Bomb">
                                         <rect key="frame" x="32" y="347" width="42" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="bombShell"/>
+                                        <connections>
+                                            <action selector="Lose:" destination="xXf-yM-sS7" eventType="touchUpInside" id="yrE-M9-HvI"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFr-Cb-DE1" userLabel="Mario">
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFr-Cb-DE1" userLabel="Mario">
                                         <rect key="frame" x="20" y="20" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Character"/>
+                                        <connections>
+                                            <action selector="SoundEffects:" destination="xXf-yM-sS7" eventType="touchUpInside" id="a8N-bq-Cdt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3I-5J-ShV" userLabel="flag">
                                         <rect key="frame" x="218" y="447.5" width="35" height="30"/>
